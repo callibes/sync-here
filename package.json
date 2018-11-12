@@ -1,0 +1,31 @@
+{
+  "name": "sync-here",
+  "version": "0.0.1",
+  "description": "[For the first study sample] Simple one-way sync local to remote always with use watcher(paulmillr/chokidar) and sftp(mscdex/ssh2).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callibes/sync-here.git"
+  },
+  "keywords": [
+    "watcher",
+    "ssh",
+    "ssh2",
+    "sftp",
+    "sync",
+    "remote"
+  ],
+  "author": "callibes",
+  "license": "MIT",
+  "devDependencies": {
+    "chokidar": "^2.0.4",
+    "ssh2": "^0.6.1"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "ssh2": "^0.6.1"
+  }
+}
